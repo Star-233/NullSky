@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "格式化字符串 类canary.md",
+                "file": "PWN格式化字符串.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "格式化字符串 类canary"
+              "title": "PWN格式化字符串"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PWN格式化字符串.md",
+                "file": "格式化字符串 类canary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PWN格式化字符串"
+              "title": "格式化字符串 类canary"
             }
           }
         ],
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PWN格式化字符串.md",
+                "file": "格式化字符串 类canary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PWN格式化字符串 的大纲"
+              "title": "格式化字符串 类canary 的大纲"
             }
           }
         ]
@@ -228,10 +228,11 @@
   },
   "active": "7b3041fb6bcbaa6a",
   "lastOpenFiles": [
-    "栈溢出.md",
+    "PWN格式化字符串.md",
     "格式化字符串 类canary.md",
     "CTF流程.canvas",
-    "PWN格式化字符串.md",
+    "assets/Pasted image 20260417190536.png",
+    "栈溢出.md",
     "SQL伪造查询记录的字段.md",
     "ROPgadget.md",
     "pwndbg.md",
@@ -275,7 +276,6 @@
     "assets/Pasted image 20260412153028.png",
     "assets/Pasted image 20260412153004.png",
     "assets/Pasted image 20260412152940.png",
-    "assets/Pasted image 20260412152933.png",
     "广西民族大学CTFd渗透测试.pdf",
     "Harness Engineering.canvas",
     "JS逆向流程.canvas",
