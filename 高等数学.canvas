@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"8b7ab7da3f09255d","type":"text","text":"微分方程的结构","x":-591,"y":73,"width":250,"height":60},
+		{"id":"f59583543ad27ba2","type":"text","text":"微分方程","x":-591,"y":-180,"width":250,"height":60},
+		{"id":"8f634a8d85f87ab5","type":"text","text":"线性微分方程解的结构","x":340,"y":302,"width":250,"height":60},
+		{"id":"6a42836a46310ad6","type":"text","text":"# 解的叠加原理\n### 非齐次线性方程的叠加原理\n\n对于 $n$ 阶非齐次线性方程：$$y^{(n)} + a_1(x)y^{(n-1)} + \\dots + a_n(x)y = f_1(x) + f_2(x) + \\cdots + f_m(x)$$\n对于方程\n$$\ny^{(n)} + a_1(x)y^{(n-1)} + \\dots + a_n(x)y = f_k(x)\n$$\n的特解 $y_k^*$ ，他不是原方程的特解，但如果有 $m$ 个这样的解，他们加起来就是原方程的特解，即\n$$\ny^*=y_1^*+y_2^*+\\cdots+y_m^*\n$$\n是原方程的一个特解\n\n### 齐次线性方程的叠加原理\n对于 $n$ 阶齐次线性方程：$$y^{(n)} + a_1(x)y^{(n-1)} + \\dots + a_n(x)y = 0$$\n如果有多个特解（$y_1,y_2,\\cdots$），那么这些特解的线性组合仍然是解\n如果有 $n$ 个线性无关的特解，那么他们就能表示所有的解，即\n$$\ny = C_1y_1 + C_2y_2 + \\dots + C_ny_n\n$$\n是原方程的通解\n\n","x":720,"y":-320,"width":480,"height":780},
+		{"id":"5722f61fc869d5c3","type":"text","text":"$$ y ^ {(n)} = f (x) \\tag {5-2} $$\n变量已经分离好了，无脑积分","x":-2400,"y":584,"width":288,"height":120},
+		{"id":"abd10a5f4b635666","type":"text","text":"$$ y ^ {\\prime \\prime} = f (x, y ^ {\\prime}) \\tag {5-7} $$\n这里是两阶的，但实际上两个变量 $y''$ 和 $y'$ 的相对阶数是一阶，所以我们可以把它们弄成一阶的。\n令 $y'=p$ ，那么\n$$\ny''=\\frac{dp}{dx}=p'\n$$\n原式就变成\n$$\np'=f(x, p)\n$$\n这就是一阶的微分方程了","x":-2031,"y":584,"width":322,"height":384},
+		{"id":"9afd4e5fcebe78fa","type":"text","text":"可降阶的高阶微分方程","x":-1760,"y":284,"width":240,"height":50},
+		{"id":"8899624e6dd46a9b","type":"text","text":"$$ y ^ {\\prime \\prime} = f (y, y ^ {\\prime}) \\tag {5-11} $$\n两阶，而且有三变量$y'',y',y$。\n两阶两变量的情况我们能解决，考虑降维变量。\n这个方程根本就没有 $x$ ，所以我们完全没有对 $x$ 进行求导的必要。\n令 $y'=p$ ，核心是\n$$ y ^ {\\prime \\prime} = \\frac {\\mathrm {d} p}{\\mathrm {d} x} = \\frac {\\mathrm {d} p}{\\mathrm {d} y} \\cdot \\frac {\\mathrm {d} y}{\\mathrm {d} x} = p \\frac {\\mathrm {d} p}{\\mathrm {d} y}. $$\n得到\n$$ p \\frac {\\mathrm {d} p}{\\mathrm {d} y} = f (y, p). $$\n变成关于 $p,y$ 的一阶微分方程了。","x":-1640,"y":584,"width":300,"height":480},
+		{"id":"62c2b1c7bdba3fc1","type":"text","text":"线性微分方程","x":-656,"y":284,"width":250,"height":60},
+		{"id":"44bb168f0171dca6","x":-280,"y":397,"width":400,"height":366,"type":"text","text":"# 常系数齐次微分方程\n**二阶齐次线性微分方程**长这样\n$$\ny''+P(x)y'+Q(x)y=0\n$$\n含 $y$ 的变量前面的系数如 $P(x),Q(x)$ 为常数，那么就是**二阶常系数齐次微分方程**\n$$\ny''+py'+qy=0 \\tag{1}\n$$\n如果不全为常数，那么称为**二阶变系数齐次线性微分方程**。\n$(1)$ 式的特征方程为\n$$\nr^2 + pr + q = 0\n$$\n"},
+		{"id":"3faa5b1c14e9c3f2","type":"text","text":"# 齐次方程\n\n## 什么东西tm的叫齐次？\n\n指的是含 $y$ 的变量（包括$y', y'',\\cdots$）的次数一样（不是导数的阶）\n注意，常数项要求是0，不为0的话意味着有 $y^0$，这就不齐次了。\n\n","x":-1280,"y":329,"width":285,"height":309},
+		{"id":"5bcbbfec33502ae8","type":"text","text":"# 一阶线性微分方程\n阶数指的是导数的阶数。\n**线性在哪？**\n在微分方程里面，真正的变量是含 $y$ 的东西，其他都可以看成常数。\n$$\n\\frac {\\mathrm {d} y}{\\mathrm {d} x} + P (x) y = Q (x) \\tag {4-1}\n$$\n这里只看含 $y$ 的变量，他们的幂次都是**1次**，那么他就是一阶线性的，和一次直线方程一样。","x":-896,"y":397,"width":380,"height":320},
+		{"id":"dd2703533eb23d38","type":"text","text":"# 一阶线性微分方程的通解\n\n$$ y = \\mathrm {e} ^ {- \\int P (x) \\mathrm {d} x} \\left[ \\int Q (x) \\mathrm {e} ^ {\\int P (x) \\mathrm {d} x} \\mathrm {d} x + C \\right]. \\tag {4-5} $$\n还能拆开\n$$ y = C \\mathrm {e} ^ {- \\int P (x) \\mathrm {d} x} + \\mathrm {e} ^ {- \\int P (x) \\mathrm {d} x} \\int Q (x) \\mathrm {e} ^ {\\int P (x) \\mathrm {d} x} \\mathrm {d} x, $$\n右边是对应齐次线性方程的通解，左边是非齐次线性方程的特解","x":-946,"y":763,"width":480,"height":320},
+		{"id":"7eb02d215f156948","type":"text","text":"# 齐次线性方程的通解结构\n即**从特解中凑出通解**\n\n对于 $n$ 阶齐次线性方程：$$y^{(n)} + a_1(x)y^{(n-1)} + \\dots + a_n(x)y = 0$$定理推广： 如果我们能找到 $n$ 个线性无关的特解 $y_1, y_2, \\dots, y_n$，那么它们的线性组合就是通解：$$y = C_1y_1 + C_2y_2 + \\dots + C_ny_n$$直观理解： 阶数是多少，通解里就需要多少个“独立”的常数。二阶需要 2 个，三阶就需要 3 个。","x":387,"y":897,"width":333,"height":428},
+		{"id":"235011fdda571af2","type":"text","text":"# 非齐次线性方程的通解结构\n对于 $n$ 阶非齐次线性方程：$$y^{(n)} + a_1(x)y^{(n-1)} + \\dots + a_n(x)y = f(x)$$它的通解由两部分组成：$$y = Y(x) + y^*(x)$$其中 $Y(x)$ 是对应的 $n$ 阶齐次方程的通解，$y^*(x)$ 是原非齐次方程的一个特解。","x":890,"y":897,"width":380,"height":372},
+		{"id":"09e568da28561b1f","x":-451,"y":886,"width":742,"height":395,"type":"text","text":"# 常系数齐次微分方程的通解\n根据特征方程的根，可以得到对应微分方程的通解\n\n| 特征方程的根 | 微分方程通解中的对应项 |\n| :--- | :--- |\n| 单实根 $r$ | 给出一项: $Ce^{rx}$ |\n| 一对单复根 $r_{1,2} = \\alpha \\pm \\beta i$ | 给出两项: $e^{\\alpha x}(C_1 \\cos \\beta x + C_2 \\sin \\beta x)$ |\n| $k$ 重实根 $r$ | 给出 $k$ 项: $e^{rx}(C_1 + C_2x + \\dots + C_kx^{k-1})$ |\n| 一对 $k$ 重复根 $r_{1,2} = \\alpha \\pm \\beta i$ | 给出 $2k$ 项: $e^{\\alpha x}[(C_1 + C_2x + \\dots + C_kx^{k-1})\\cos \\beta x + (D_1 + D_2x + \\dots + D_kx^{k-1})\\sin \\beta x]$ |"}
+	],
+	"edges":[
+		{"id":"5c89f7096e66c2a2","fromNode":"8b7ab7da3f09255d","fromSide":"bottom","toNode":"3faa5b1c14e9c3f2","toSide":"top"},
+		{"id":"394140ca5280d24c","fromNode":"62c2b1c7bdba3fc1","fromSide":"bottom","toNode":"5bcbbfec33502ae8","toSide":"top"},
+		{"id":"d8cc49a3504f8ac8","fromNode":"5bcbbfec33502ae8","fromSide":"bottom","toNode":"dd2703533eb23d38","toSide":"top"},
+		{"id":"39c1e2ba6118fd10","fromNode":"8b7ab7da3f09255d","fromSide":"bottom","toNode":"9afd4e5fcebe78fa","toSide":"top"},
+		{"id":"bd8476dae5b61c70","fromNode":"9afd4e5fcebe78fa","fromSide":"bottom","toNode":"5722f61fc869d5c3","toSide":"top"},
+		{"id":"ee8a27753db2b06a","fromNode":"9afd4e5fcebe78fa","fromSide":"bottom","toNode":"abd10a5f4b635666","toSide":"top"},
+		{"id":"5459e6b4e2fd509c","fromNode":"9afd4e5fcebe78fa","fromSide":"bottom","toNode":"8899624e6dd46a9b","toSide":"top"},
+		{"id":"108067c9b77a40b5","fromNode":"f59583543ad27ba2","fromSide":"bottom","toNode":"8b7ab7da3f09255d","toSide":"top"},
+		{"id":"e8e8dc8bcbf75d1a","fromNode":"8b7ab7da3f09255d","fromSide":"bottom","toNode":"62c2b1c7bdba3fc1","toSide":"top"},
+		{"id":"70f3957b5af28893","fromNode":"62c2b1c7bdba3fc1","fromSide":"right","toNode":"8f634a8d85f87ab5","toSide":"left"},
+		{"id":"4b9990ee4fa6f7aa","fromNode":"8f634a8d85f87ab5","fromSide":"right","toNode":"6a42836a46310ad6","toSide":"left"},
+		{"id":"dda6300624d21e32","fromNode":"6a42836a46310ad6","fromSide":"bottom","toNode":"7eb02d215f156948","toSide":"top"},
+		{"id":"a049ffd8956628b1","fromNode":"6a42836a46310ad6","fromSide":"bottom","toNode":"235011fdda571af2","toSide":"top"},
+		{"id":"a4388a1ee95da4b9","fromNode":"8f634a8d85f87ab5","fromSide":"bottom","toNode":"7eb02d215f156948","toSide":"top"},
+		{"id":"1329185564ddf2fc","fromNode":"8f634a8d85f87ab5","fromSide":"bottom","toNode":"235011fdda571af2","toSide":"top"},
+		{"id":"277c4101900df811","fromNode":"62c2b1c7bdba3fc1","fromSide":"bottom","toNode":"44bb168f0171dca6","toSide":"top"},
+		{"id":"b3aa02da7b478447","fromNode":"44bb168f0171dca6","fromSide":"bottom","toNode":"09e568da28561b1f","toSide":"top"}
+	]
+}

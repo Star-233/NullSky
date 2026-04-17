@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"8adbdf07e4c5785a","type":"text","text":"渗透","x":-142,"y":-302,"width":250,"height":60},
+		{"id":"ad395f9039aa8256","x":-760,"y":-60,"width":480,"height":440,"type":"text","text":"# TTL （Time To Live，生存时间）\n不同的操作系统在发送 IP 数据包时，默认的初始 TTL 值是不同的。通过查看响应包的 TTL 值，渗透测试人员可以初步推断目标机的操作系统。\n\n|**操作系统类型**|**默认初始 TTL 值**|\n|---|---|\n|**Linux / Unix**|64|\n|**Windows (NT/2000/XP/7/10/Server)**|128|\n|**Solaris / AIX / Cisco 路由**|255|\n"},
+		{"id":"cb24b9cbd2784345","type":"text","text":"js.map 泄露","x":-142,"y":-60,"width":250,"height":60},
+		{"id":"173fafe1a600df14","type":"text","text":"# SourceDetector浏览器插件\nSourceDetector是一个自动发现.map文件，并帮你下载到本地的一个chrome extension。","x":58,"y":180,"width":400,"height":266},
+		{"id":"af503da1d6c65750","x":755,"y":-202,"width":250,"height":60,"type":"text","text":"工具"},
+		{"id":"e66f4ed398133358","x":680,"y":180,"width":250,"height":60,"type":"text","text":"sqlmap"}
+	],
+	"edges":[
+		{"id":"1dc21e686901d49f","fromNode":"8adbdf07e4c5785a","fromSide":"bottom","toNode":"cb24b9cbd2784345","toSide":"top"},
+		{"id":"40ad0d1a6b73685a","fromNode":"cb24b9cbd2784345","fromSide":"bottom","toNode":"173fafe1a600df14","toSide":"top"},
+		{"id":"ddac22af95a83cb4","fromNode":"8adbdf07e4c5785a","fromSide":"bottom","toNode":"ad395f9039aa8256","toSide":"top"},
+		{"id":"f6170c4f7123ef63","fromNode":"8adbdf07e4c5785a","fromSide":"bottom","toNode":"af503da1d6c65750","toSide":"top"},
+		{"id":"25df3af529593dac","fromNode":"af503da1d6c65750","fromSide":"bottom","toNode":"173fafe1a600df14","toSide":"top"},
+		{"id":"a983ed43367460ca","fromNode":"af503da1d6c65750","fromSide":"bottom","toNode":"e66f4ed398133358","toSide":"top"}
+	]
+}

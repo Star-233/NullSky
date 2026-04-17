@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"5dec6befe7ab23ce","x":38,"y":-141,"width":250,"height":60,"type":"text","text":"有反调试？"},
+		{"id":"dd11411dbdd7dae9","x":-246,"y":70,"width":250,"height":60,"type":"text","text":"简单的 `debugger;`"},
+		{"id":"529d560e98ec58fa","x":-539,"y":303,"width":250,"height":60,"type":"text","text":"不在此处暂停"}
+	],
+	"edges":[
+		{"id":"42866f989decfe7f","fromNode":"5dec6befe7ab23ce","fromSide":"bottom","toNode":"dd11411dbdd7dae9","toSide":"top"},
+		{"id":"52987e7b231627fd","fromNode":"dd11411dbdd7dae9","fromSide":"bottom","toNode":"529d560e98ec58fa","toSide":"top"}
+	]
+}
