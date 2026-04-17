@@ -29,9 +29,9 @@
               "state": {
                 "file": "渗透.canvas",
                 "viewState": {
-                  "x": -1133.3311737807674,
-                  "y": 353.8521381673059,
-                  "zoom": -0.40610248759603723
+                  "x": -260.47415094916875,
+                  "y": 581.6812726614817,
+                  "zoom": -0.7394358209293705
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "收集子域名.md",
+                "file": "广西民族大学教育SRC/广西民族大学子域名.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -59,7 +59,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "收集子域名"
+              "title": "广西民族大学子域名"
             }
           },
           {
@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "收集子域名.md",
+                "file": "渗透.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "收集子域名 的大纲"
+              "title": "渗透 的大纲"
             }
           }
         ]
@@ -277,17 +277,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00199be9a39e5c03",
+  "active": "7b3041fb6bcbaa6a",
   "lastOpenFiles": [
+    "广西民族大学教育SRC/广西民族大学子域名.md",
+    "广西民族大学教育SRC/广西民族大学信息收集.md",
+    "收集子域名.md",
+    "python 模拟c类型.md",
+    "AES加密算法.md",
+    "PE格式.canvas",
+    "广西民族大学教育SRC.canvas",
+    "广西民族大学教育SRC",
+    "渗透.canvas",
     "AGETNS.md",
     "New Text Document.txt",
     "skills-lock.json",
-    "渗透.canvas",
     "查关联域名.md",
-    "收集子域名.md",
     "js.map 泄露.md",
     "CTF流程.canvas",
-    "未命名.canvas",
     "php字母和数字 md5弱判断绕过.md",
     "include 日志注入.md",
     "强化学习概念.md",
@@ -307,10 +313,6 @@
     "PWN格式化字符串.md",
     "assets/Pasted image 20260417190536.png",
     "栈溢出.md",
-    "SQL伪造查询记录的字段.md",
-    "ROPgadget.md",
-    "pwndbg.md",
-    "基本积分表.md",
     "Untitled.canvas",
     "未命名.base",
     "~syncthing~Untitled.md.tmp",
@@ -327,13 +329,11 @@
     "大学物理.canvas",
     "强化学习.canvas",
     "assets/Pasted image 20260412154232.png",
-    "PE格式.canvas",
     "assets/Pasted image 20260412153028.png",
     "assets/Pasted image 20260412153004.png",
     "assets/Pasted image 20260412152940.png",
     "广西民族大学CTFd渗透测试.pdf",
     "Harness Engineering.canvas",
-    "JS逆向流程.canvas",
-    "CTF流程.zip"
+    "JS逆向流程.canvas"
   ]
 }

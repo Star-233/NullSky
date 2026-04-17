@@ -3,11 +3,11 @@
 		{"id":"992ef7936bca016a","type":"text","text":"# PE格式\nPE格式的内存是平面地址空间的。\n有多个不同的区块，每个区块按页边界对齐。","x":-180,"y":-260,"width":250,"height":218},
 		{"id":"69d152b8a0ce18c4","type":"text","text":"## 平面地址空间\n指的是一种连续的、不分段的内存寻址模型\n**工作机制：**\n- **线性寻址：** 处理器看到的内存是一个连续的字节序列。\n- **单一偏移量：** 要找到某个数据，你只需要一个地址（比如 `0x00401000`）。这就像在大楼里直接说“去第 401000 号房间”。\n- **硬件支持：** 现代 CPU（如 x64）和操作系统（Windows/Linux）通过**分页机制（Paging）**在底层管理物理内存，但在程序看来，它拥有一个从 $0$ 到 $2^n-1$ 的完美平面。\n## 非平面地址空间\n\n**工作机制：**\n- **二维寻址：** 访问内存需要两个信息：**段基址 (Segment Selector)** 和 **段内偏移量 (Offset)**。\n- **地址合成：** CPU 通过特定的公式将这两个值合成最终的物理地址。\n    > 在 16 位实模式下，公式为：$物理地址 = 段寄存器 \\times 16 + 偏移地址$\n- **限制：** 这种方式下，单个“段”的大小通常有限制（如 64KB）。如果你想访问超出这个范围的数据，必须切换段寄存器，这非常麻烦。","x":-1040,"y":-840,"width":478,"height":845},
 		{"id":"b80932155a9c2389","type":"text","text":"# 页\n操作系统不会一个字节一个字节地管理内存，因为那样效率太低了。相反，它把内存分割成固定大小的“块”，这些块就称为**页（Page）**。\n\n- **标准大小：** 在常见的 $x86$ 和 $x64$ 系统（即绝大多数 Windows 电脑）中，一个标准页的大小是 **4KB**（即 $4096$ 字节，十六进制表示为 `0x1000`）。\n    \n- **内存单位：** 页是 CPU 和操作系统之间交换内存数据的最小单位。","x":480,"y":-588,"width":410,"height":342},
-		{"id":"9d37d8ad57e98a36","x":-255,"y":280,"width":400,"height":160,"type":"text","text":"# 模块\nPE文件映射到内存之后的东西，就称之为模块。\n"},
-		{"id":"47fe23cca4c79a6f","x":480,"y":40,"width":311,"height":400,"type":"file","file":"assets/Pasted image 20260412143858.png"},
-		{"id":"2fd05b48ba632403","x":-1200,"y":700,"width":354,"height":297,"type":"text","text":"# 模块句柄\n模块的起始地址被称为**模块句柄**。这个起始地址也被称为**基地址**。\n"},
-		{"id":"495b4efed9c7b7ed","x":-800,"y":700,"width":500,"height":595,"type":"text","text":"# IMAGE_FILE_HEADER映像头文件结构\n偏移是基于PE文件头的（不是DOS头）\n\n![[Pasted image 20260412152312.png]]\n## 属性位（Characteristics）结构\n![[Pasted image 20260412152737.png]]\n\n## IMAGE_OPTIONAL_HEADER 结构\n是和映像头文件连续在一起的\n\n### IMAGE_OPTIONAL_HEADER32 的结构\n![[Pasted image 20260412152933.png]]\n![[Pasted image 20260412152940.png]]\n### IMAGE_OPTIONAL_HEADER64 的结构\n![[Pasted image 20260412153004.png]]\n![[Pasted image 20260412153028.png]]\n"},
-		{"id":"b1ebcbf144a0a2a2","x":636,"y":700,"width":400,"height":294,"type":"file","file":"assets/Pasted image 20260412143842.png"}
+		{"id":"9d37d8ad57e98a36","type":"text","text":"# 模块\nPE文件映射到内存之后的东西，就称之为模块。\n","x":-255,"y":280,"width":400,"height":160},
+		{"id":"47fe23cca4c79a6f","type":"file","file":"assets/Pasted image 20260412143858.png","x":480,"y":40,"width":311,"height":400},
+		{"id":"2fd05b48ba632403","type":"text","text":"# 模块句柄\n模块的起始地址被称为**模块句柄**。这个起始地址也被称为**基地址**。\n","x":-1200,"y":700,"width":354,"height":297},
+		{"id":"495b4efed9c7b7ed","type":"text","text":"# IMAGE_FILE_HEADER映像头文件结构\n偏移是基于PE文件头的（不是DOS头）\n\n![[Pasted image 20260412152312.png]]\n## 属性位（Characteristics）结构\n![[Pasted image 20260412152737.png]]\n\n## IMAGE_OPTIONAL_HEADER 结构\n是和映像头文件连续在一起的\n\n### IMAGE_OPTIONAL_HEADER32 的结构\n![[Pasted image 20260412152933.png]]\n![[Pasted image 20260412152940.png]]\n### IMAGE_OPTIONAL_HEADER64 的结构\n![[Pasted image 20260412153004.png]]\n![[Pasted image 20260412153028.png]]\n","x":-800,"y":700,"width":500,"height":595},
+		{"id":"b1ebcbf144a0a2a2","type":"file","file":"assets/Pasted image 20260412143842.png","x":636,"y":700,"width":400,"height":294}
 	],
 	"edges":[
 		{"id":"9e8d33dba293be23","fromNode":"b80932155a9c2389","fromSide":"left","toNode":"992ef7936bca016a","toSide":"right"},
