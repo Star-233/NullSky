@@ -64,10 +64,10 @@ if (mysqli_num_rows($result) > 0) {
 select * from user where username = '' or 1;
 ```
 
-| id | username | password |
-| :--- | :--- | :--- |
-| 1 | test | abc123456 |
-| 2 | guest | guest888 |
+| id  | username | password  |
+| :-- | :------- | :-------- |
+| 1   | test     | abc123456 |
+| 2   | guest    | guest888  |
 
 #### 2. 仅增加 GROUP BY
 ```sql
