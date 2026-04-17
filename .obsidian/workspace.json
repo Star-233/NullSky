@@ -25,18 +25,69 @@
             "id": "7b3041fb6bcbaa6a",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "渗透.canvas",
+                "viewState": {
+                  "x": -1133.3311737807674,
+                  "y": 353.8521381673059,
+                  "zoom": -0.40610248759603723
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "渗透"
+            }
+          },
+          {
+            "id": "1c722008118e81e4",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "x64栈溢出 无后门 ret2libc gadget.md",
+                "file": "收集子域名.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "x64栈溢出 无后门 ret2libc gadget"
+              "title": "收集子域名"
+            }
+          },
+          {
+            "id": "d1b074adcb40eb63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "收集子域名.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "收集子域名"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "x64栈溢出 无后门 ret2libc gadget.md",
+                "file": "收集子域名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "x64栈溢出 无后门 ret2libc gadget 的大纲"
+              "title": "收集子域名 的大纲"
             }
           }
         ]
@@ -226,38 +277,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b3041fb6bcbaa6a",
+  "active": "00199be9a39e5c03",
   "lastOpenFiles": [
+    "AGETNS.md",
+    "New Text Document.txt",
+    "skills-lock.json",
+    "渗透.canvas",
+    "查关联域名.md",
+    "收集子域名.md",
+    "js.map 泄露.md",
+    "CTF流程.canvas",
+    "未命名.canvas",
+    "php字母和数字 md5弱判断绕过.md",
+    "include 日志注入.md",
+    "强化学习概念.md",
+    "PHP 反序列化魔术方法.md",
+    "图片隐写.md",
+    "portal.gxmzu.edu.cn.md",
+    "验证微分方程的解.md",
+    "Unitree G1 动作数据集.md",
+    "LAFAN1 数据集预览.md",
+    "IsaacLab常用命令.md",
+    "x和y互换.md",
+    "x64 函数调用约定.md",
+    "在多臂老虎机问题中，有价值这一概念吗？.md",
+    "x64栈溢出 无后门 ret2libc gadget.md",
     "花指令.md",
     "格式化字符串 类canary.md",
     "PWN格式化字符串.md",
-    "CTF流程.canvas",
     "assets/Pasted image 20260417190536.png",
     "栈溢出.md",
     "SQL伪造查询记录的字段.md",
     "ROPgadget.md",
     "pwndbg.md",
     "基本积分表.md",
-    "Content-Type大小写绕过+php后缀检测绕过.md",
-    "一阶线性微分方程.md",
-    "验证微分方程的解.md",
-    "humanoid_amp 常用命令.md",
-    "强化学习概念.md",
-    "在多臂老虎机问题中，有价值这一概念吗？.md",
-    "通过 `include` 的文件上传漏洞.md",
-    "图片隐写.md",
-    "贪心策略的max化简.md",
     "Untitled.canvas",
-    "PHP switch无break 绕information.tables.md",
-    "广西民族大学信息收集.md",
-    "栈金丝雀（Stack Canary）.md",
-    "x64栈对齐.md",
-    "x和y互换.md",
-    "x64 函数调用约定.md",
-    "unserialize-Noteasy.md",
-    "通过上传 .user.ini 配置文件来执行上传的文件.md",
     "未命名.base",
-    "canary 无PIE 有NX 格式化字符串.md",
     "~syncthing~Untitled.md.tmp",
     "~syncthing~CTF流程.canvas.tmp",
     "~syncthing~canary 无PIE 有NX 格式化字符串.md.tmp",
@@ -266,7 +321,6 @@
     "repomix-output.txt",
     "assets/Pasted image 20260414183037.png",
     "assets/Pasted image 20260414183016.png",
-    "渗透.canvas",
     "assets/Pasted image 20260413222802.png",
     "assets/Pasted image 20260413221726.png",
     "高等数学.canvas",
@@ -280,9 +334,6 @@
     "广西民族大学CTFd渗透测试.pdf",
     "Harness Engineering.canvas",
     "JS逆向流程.canvas",
-    "CTF流程.zip",
-    "CTF流程.7z",
-    "未命名 1.canvas",
-    "~syncthing~最长递增子序列变式.md.tmp"
+    "CTF流程.zip"
   ]
 }
