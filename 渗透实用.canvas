@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"8adbdf07e4c5785a","type":"text","text":"渗透","x":-142,"y":-302,"width":250,"height":60},
+		{"id":"79be0c58398a0240","type":"text","text":"信息收集","x":-729,"y":-162,"width":250,"height":60},
+		{"id":"811340e580821934","type":"file","file":"收集子域名.md","x":38,"y":440,"width":560,"height":440},
+		{"id":"539d8a4178a5cad5","type":"file","file":"收集 C 段资产.md","x":-471,"y":440,"width":481,"height":440},
+		{"id":"32bca14037c8689d","type":"file","file":"端口与服务探测.md","x":641,"y":440,"width":505,"height":440},
+		{"id":"bc261067adaf9cf6","type":"file","file":"收集api接口.md","x":-878,"y":440,"width":380,"height":440},
+		{"id":"0ee4ae4126d62205","type":"file","file":"资产收集.md","x":-102,"y":80,"width":420,"height":220},
+		{"id":"ad395f9039aa8256","type":"text","text":"# TTL （Time To Live，生存时间）\n不同的操作系统在发送 IP 数据包时，默认的初始 TTL 值是不同的。通过查看响应包的 TTL 值，渗透测试人员可以初步推断目标机的操作系统。\n\n|**操作系统类型**|**默认初始 TTL 值**|\n|---|---|\n|**Linux / Unix**|64|\n|**Windows (NT/2000/XP/7/10/Server)**|128|\n|**Solaris / AIX / Cisco 路由**|255|\n","x":-2920,"y":220,"width":480,"height":440},
+		{"id":"83c570390e554207","type":"text","text":"资产探测","x":-1980,"y":80,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"6819bd5af0e54148","fromNode":"8adbdf07e4c5785a","fromSide":"bottom","toNode":"79be0c58398a0240","toSide":"top"},
+		{"id":"495b8b3e837e7629","fromNode":"0ee4ae4126d62205","fromSide":"bottom","toNode":"811340e580821934","toSide":"top"},
+		{"id":"b6ce9f2035d14a78","fromNode":"0ee4ae4126d62205","fromSide":"bottom","toNode":"32bca14037c8689d","toSide":"top"},
+		{"id":"d8e0b14257f36c9a","fromNode":"0ee4ae4126d62205","fromSide":"bottom","toNode":"539d8a4178a5cad5","toSide":"top"},
+		{"id":"8a49f03ca8846908","fromNode":"79be0c58398a0240","fromSide":"bottom","toNode":"0ee4ae4126d62205","toSide":"top"},
+		{"id":"927ca2354fab505d","fromNode":"0ee4ae4126d62205","fromSide":"bottom","toNode":"bc261067adaf9cf6","toSide":"top"},
+		{"id":"56ce690e43fa00e4","fromNode":"79be0c58398a0240","fromSide":"bottom","toNode":"83c570390e554207","toSide":"top"}
+	]
+}
