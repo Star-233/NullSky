@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "505a1cb3db4cda8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "基本积分表.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "基本积分表"
-            }
-          },
-          {
             "id": "8ebd00d5a821deb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基本积分表.md",
+                "file": "x64栈溢出 无后门 ret2libc gadget.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,27 +28,100 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "基本积分表"
+              "title": "x64栈溢出 无后门 ret2libc gadget"
             }
           },
           {
             "id": "7b3041fb6bcbaa6a",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "教育SRC/广西民族大学子域名.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "广西民族大学子域名"
+            }
+          },
+          {
+            "id": "7fa94c86661dd985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "收集api接口.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "收集api接口"
+            }
+          },
+          {
+            "id": "86d2ffb250dcbc30",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
-                "file": "高等数学实用.canvas",
+                "file": "CANVAS/CTF流程.canvas",
                 "viewState": {
-                  "x": -504.2591183730253,
-                  "y": 804.6919975371952,
-                  "zoom": -0.4386845508187221
+                  "x": -2241.641039858141,
+                  "y": 1156.3095565648562,
+                  "zoom": -0.333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "高等数学实用"
+              "title": "CTF流程"
+            }
+          },
+          {
+            "id": "13b7314d680aef3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shell 常用特性.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Shell 常用特性"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -104,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CTF tag:#题目  ",
+                "query": "常用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,6 +172,21 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "书签"
+            }
+          },
+          {
+            "id": "0415ca6ea5f1f994",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           }
         ]
@@ -183,21 +247,6 @@
             }
           },
           {
-            "id": "0415ca6ea5f1f994",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
             "id": "5deea3ac517f1ded",
             "type": "leaf",
             "state": {
@@ -222,7 +271,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "878fb0f70da93580",
@@ -234,13 +283,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "基本积分表.md",
+                "file": "CANVAS/CTF流程.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "基本积分表 的大纲"
+              "title": "CTF流程 的大纲"
             }
           }
         ]
@@ -261,45 +310,49 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "505a1cb3db4cda8b",
+  "active": "86d2ffb250dcbc30",
   "lastOpenFiles": [
-    "SQL伪造查询记录的字段.md",
-    "查关联域名.md",
-    "收集 C 段资产.md",
-    "CDN 判断.md",
-    "pwndbg.md",
-    "以结尾元素做状态的简单dp.md",
-    "一阶线性微分方程.md",
-    "强化学习概念.md",
-    "基本积分表.md",
-    "PWN格式化字符串.md",
-    "CTF流程.canvas",
-    "zip 伪压缩.md",
-    "crc32反推.md",
-    "x和y互换.md",
-    "高等数学实用.canvas",
-    "广西民族大学教育SRC/广西民族大学子域名.md",
-    "广西民族大学教育SRC/广西民族大学接口.md",
-    "广西民族大学教育SRC/广西民族大学信息收集.md",
-    "渗透概念理解.canvas",
-    "渗透实用.canvas",
-    "资产收集.md",
-    "收集api接口.md",
-    "端口与服务探测.md",
-    "收集子域名.md",
-    "AGENTS.md",
+    "PHP常用payload.md",
+    "Shell 常用特性.md",
+    "PHP 正则 eval 伪协议 绕过.md",
+    "《动手学强化学习》多臂老虎机代码实现.md",
+    "CANVAS/大学物理.canvas",
+    "CANVAS/高等数学实用.canvas",
+    "CANVAS",
     "python 模拟c类型.md",
-    "AES加密算法.md",
-    "PE格式.canvas",
+    "LCM  公式化简.md",
+    "通过 `include` 的文件上传漏洞.md",
+    "CANVAS/CTF流程.canvas",
+    "教育SRC/广西民族大学子域名.md",
+    "教育SRC/广西民族大学接口.md",
+    "教育SRC/广西民族大学信息收集.md",
+    "教育SRC/广西大学接口.md",
+    "改id越权访问总是可行吗？.md",
+    "assets/Pasted image 20260421213145.png",
+    "收集api接口.md",
+    "js.map 泄露.md",
+    "极坐标代换求二元极限.md",
+    "x64栈溢出 无后门 ret2libc gadget.md",
+    "内存段.md",
+    "收集子域名.md",
+    "收集 C 段资产.md",
+    "CANVAS/渗透实用.canvas",
+    "资产收集.md",
+    "x64 有后门 栈溢出.md",
+    "humanoid_amp 常用命令.md",
+    "一阶线性微分方程.md",
+    "Untitled.canvas",
+    "强化学习.canvas",
+    "x64 函数调用约定.md",
+    "x64栈对齐.md",
+    "栈金丝雀（Stack Canary）.md",
+    "CANVAS/PE格式概念理解.canvas",
+    "CANVAS/渗透概念理解.canvas",
     "广西民族大学教育SRC.canvas",
-    "广西民族大学教育SRC",
-    "AGETNS.md",
+    "教育SRC",
     "New Text Document.txt",
     "skills-lock.json",
-    "js.map 泄露.md",
-    "php字母和数字 md5弱判断绕过.md",
     "assets/Pasted image 20260417190536.png",
-    "Untitled.canvas",
     "未命名.base",
     "~syncthing~Untitled.md.tmp",
     "~syncthing~CTF流程.canvas.tmp",
@@ -311,13 +364,9 @@
     "assets/Pasted image 20260414183016.png",
     "assets/Pasted image 20260413222802.png",
     "assets/Pasted image 20260413221726.png",
-    "大学物理.canvas",
-    "强化学习.canvas",
     "assets/Pasted image 20260412154232.png",
     "assets/Pasted image 20260412153028.png",
     "assets/Pasted image 20260412153004.png",
-    "assets/Pasted image 20260412152940.png",
-    "广西民族大学CTFd渗透测试.pdf",
     "Harness Engineering.canvas"
   ]
 }
