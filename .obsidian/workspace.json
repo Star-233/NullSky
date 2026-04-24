@@ -83,17 +83,120 @@
             "id": "86d2ffb250dcbc30",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "CANVAS/CTF流程.canvas",
-                "viewState": {
-                  "x": -2697.2284607403367,
-                  "y": 857.960248104776,
-                  "zoom": -0.333333333333333
+                "file": "PHP常用payload.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "CTF流程"
+              "icon": "lucide-file",
+              "title": "PHP常用payload"
+            }
+          },
+          {
+            "id": "6bcbd365a247c330",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dirsearch常用.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "dirsearch常用"
+            }
+          },
+          {
+            "id": "e59e802e21a62c5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dirsearch常用.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "dirsearch常用"
+            }
+          },
+          {
+            "id": "3c1c6067f6d4ed5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs常用.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "nodejs常用"
+            }
+          },
+          {
+            "id": "6ab798a2199d0b0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PowerShell常用.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PowerShell常用"
             }
           },
           {
@@ -121,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -153,7 +256,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "常用",
+                "query": "伪协议",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -283,20 +386,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CANVAS/CTF流程.canvas",
+                "file": "nodejs常用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CTF流程 的大纲"
+              "title": "nodejs常用 的大纲"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -310,8 +413,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86d2ffb250dcbc30",
+  "active": "3c1c6067f6d4ed5a",
   "lastOpenFiles": [
+    "dirsearch常用.md",
+    "nodejs常用.md",
+    "dirsearch 指定文件扩展名是如何工作的.md",
+    "feroxbuster 常用.md",
+    "linux.md",
+    "PowerShell常用.md",
     "PHP常用payload.md",
     "CANVAS/CTF流程.canvas",
     "Shell 常用特性.md",
@@ -338,13 +447,8 @@
     "收集 C 段资产.md",
     "CANVAS/渗透实用.canvas",
     "资产收集.md",
-    "x64 有后门 栈溢出.md",
-    "humanoid_amp 常用命令.md",
-    "一阶线性微分方程.md",
     "Untitled.canvas",
     "强化学习.canvas",
-    "x64 函数调用约定.md",
-    "x64栈对齐.md",
     "CANVAS/PE格式概念理解.canvas",
     "CANVAS/渗透概念理解.canvas",
     "广西民族大学教育SRC.canvas",
