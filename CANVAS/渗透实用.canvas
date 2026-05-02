@@ -17,6 +17,10 @@
 		{"id":"d8e0b14257f36c9a","fromNode":"0ee4ae4126d62205","fromSide":"bottom","toNode":"539d8a4178a5cad5","toSide":"top"},
 		{"id":"8a49f03ca8846908","fromNode":"79be0c58398a0240","fromSide":"bottom","toNode":"0ee4ae4126d62205","toSide":"top"},
 		{"id":"927ca2354fab505d","fromNode":"0ee4ae4126d62205","fromSide":"bottom","toNode":"bc261067adaf9cf6","toSide":"top"},
-		{"id":"56ce690e43fa00e4","fromNode":"79be0c58398a0240","fromSide":"bottom","toNode":"83c570390e554207","toSide":"top"}
-	]
+		{"id":"56ce690e43fa00e4","fromFloating":false,"fromNode":"79be0c58398a0240","fromSide":"bottom","toNode":"83c570390e554207","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }
