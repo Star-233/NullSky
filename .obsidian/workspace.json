@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/NodeJS 原型链污染 RCE.md",
+                "file": "大学物理/一道力学分析题目.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NodeJS 原型链污染 RCE"
+              "title": "一道力学分析题目"
             }
           }
         ]
@@ -193,12 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "大学物理/一道力学分析题目.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "一道力学分析题目 的大纲"
             }
           }
         ]
@@ -220,30 +221,45 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8de8c10018a7cda6",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CTF/NodeJS 原型链污染 RCE.md",
-    "constantinople 沙箱绕过漏洞深度分析 GHSA-4vmm-mhcq-4x9j.md",
-    "feroxbuster 常用.md",
+    "assets/Pasted image 20260504211847.png",
+    "assets/Pasted image 20260504211526.png",
+    "assets/Pasted image 20260504211509.png",
+    "assets/Pasted image 20260504211125.png",
+    "assets/Pasted image 20260504211120.png",
     "大学物理/对称情况简谐运动弹性力做的功.md",
+    "大学物理/一道力学分析题目.md",
+    "通过 `include` 的文件上传漏洞.md",
+    "通过上传 .user.ini 配置文件来执行上传的文件.md",
+    "绕过WAF.md",
+    "repomix-output.txt",
+    "x64 有后门 栈溢出.md",
+    "x64栈溢出 无后门 ret2libc gadget.md",
+    "x64 函数调用约定.md",
+    "x64栈对齐.md",
+    "x64在栈对齐的情况下，程序如何执行？.md",
+    "canary 无PIE 有NX 格式化字符串.md",
+    "无后门 Ret2libc调用system 无PIE保护.md",
+    "ASLR（地址空间布局随机化）.md",
+    "python 模拟c类型.md",
+    "python进制转换.md",
+    "RC4加密算法.md",
+    "NGINX 重要信息.md",
+    "PHP switch无break 绕information.tables.md",
+    "各种从数据库里获取信息的方法.md",
+    "PHP令SESSION为空绕过判断.md",
+    "php字母和数字 md5弱判断绕过.md",
+    "include 日志注入.md",
+    "最长递增子序列变式.md",
+    "linux shell 空格绕过.md",
+    "贪心策略的max化简.md",
+    "CANVAS/CTF流程.canvas",
+    "数学",
     "大学物理",
-    "dirsearch常用.md",
-    "CTF/nodejs常用.md",
-    "CTF/原型链污染.md",
-    "CTF/nodejs绕过md5.md",
-    "信息收集.md",
-    "CTF/信息收集.md",
-    "教育SRC/广西民族大学子域名.md",
     "CTF",
-    "教育SRC/广西民族大学信息收集.md",
-    "教育SRC/广西民族大学接口.md",
-    "教育SRC/广西大学接口.md",
     "CANVAS/渗透实用.canvas",
     "CANVAS/渗透概念理解.canvas",
-    "资产收集.md",
-    "收集 C 段资产.md",
-    "端口与服务探测.md",
-    "js.map 泄露.md",
     "assets/web342.zip",
     "assets/Pasted image 20260430144233.png",
     "assets/Pasted image 20260430143649.png",
@@ -251,14 +267,6 @@
     "assets/Pasted image 20260430140001.png",
     "assets/web339 (1).zip",
     "assets/Pasted image 20260428124034.png",
-    "CANVAS/CTF流程.canvas",
-    "PHP常用payload.md",
-    "dirsearch 指定文件扩展名是如何工作的.md",
-    "linux.md",
-    "PowerShell常用.md",
-    "Shell 常用特性.md",
-    "PHP 正则 eval 伪协议 绕过.md",
-    "《动手学强化学习》多臂老虎机代码实现.md",
     "CANVAS/大学物理.canvas",
     "CANVAS/高等数学实用.canvas",
     "CANVAS",
@@ -270,12 +278,6 @@
     "教育SRC",
     "New Text Document.txt",
     "skills-lock.json",
-    "assets/Pasted image 20260417190536.png",
-    "未命名.base",
-    "~syncthing~Untitled.md.tmp",
-    "assets/Pasted image 20260415103805.png",
-    "assets/Pasted image 20260414183037.png",
-    "assets/Pasted image 20260414183016.png",
     "Harness Engineering.canvas"
   ]
 }

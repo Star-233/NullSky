@@ -45,7 +45,6 @@ function copy(object1, object2) {
     }
   }
 }
-
 ```
 
 ```node
