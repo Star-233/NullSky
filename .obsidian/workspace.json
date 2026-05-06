@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "使用开放重定向绕过SSRF的限制.md",
+                "file": "信息安全/使用开放重定向绕过SSRF的限制.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "使用开放重定向绕过SSRF的限制"
             }
+          },
+          {
+            "id": "ce50d020b6e2dbb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "信息安全/在 Referer 中的 SSRF.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "在 Referer 中的 SSRF"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,13 +242,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "使用开放重定向绕过SSRF的限制.md",
+                "file": "信息安全/在 Referer 中的 SSRF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "使用开放重定向绕过SSRF的限制 的大纲"
+              "title": "在 Referer 中的 SSRF 的大纲"
             }
           }
         ]
@@ -246,11 +270,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "49801f1d8bd972a8",
+  "active": "ce50d020b6e2dbb9",
   "lastOpenFiles": [
+    "assets/Pasted image 20260506180021.png",
+    "信息安全/使用开放重定向绕过SSRF的限制.md",
+    "信息安全/在 Referer 中的 SSRF.md",
+    "assets/Pasted image 20260506165254.png",
     "assets/Pasted image 20260506164756.png",
     "信息安全/简单SSRF黑名单绕过.md",
-    "使用开放重定向绕过SSRF的限制.md",
     "资产收集.md",
     "信息安全/身份验证爆破.md",
     "信息安全/PWN格式化字符串.md",
@@ -279,7 +306,6 @@
     "x64在栈对齐的情况下，程序如何执行？.md",
     "canary 无PIE 有NX 格式化字符串.md",
     "无后门 Ret2libc调用system 无PIE保护.md",
-    "ASLR（地址空间布局随机化）.md",
     "CANVAS/CTF流程.canvas",
     "数学",
     "大学物理",
@@ -290,9 +316,7 @@
     "assets/Pasted image 20260430144233.png",
     "assets/Pasted image 20260430143649.png",
     "assets/Pasted image 20260430143523.png",
-    "assets/Pasted image 20260430140001.png",
     "assets/web339 (1).zip",
-    "assets/Pasted image 20260428124034.png",
     "CANVAS/大学物理.canvas",
     "CANVAS/高等数学实用.canvas",
     "CANVAS",

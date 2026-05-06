@@ -1,5 +1,10 @@
 https://portswigger.net/web-security/learning-paths/ssrf-attacks/ssrf-attacks-circumventing-defenses/ssrf/lab-ssrf-filter-bypass-via-open-redirection#
 
+
+> [!info] 目标
+> Lab 要求我们通过 SSRF 访问 `http://192.168.0.12:8080/admin` 来删除 carlos 的账号
+
+
 在这个 lab 中，我们可以控制一个包里的请求地址
 ```HTTP
 POST /product/stock HTTP/1.1
@@ -31,3 +36,11 @@ stockApi=%2Fproduct%2Fstock%2Fcheck%3FproductId%3D3%26storeId%3D1
 在这个“下一个产品”接口这里，具有开放重定向
 
 那么可以利用这个重定向接口绕过限制
+
+![[Pasted image 20260506165254.png]]
+
+---
+
+
+> [!NOTE] 
+> 本案例具备"只能访问网页程序本身"的限制，但使用了网页程序自带的重定向接口绕过了这一限制
