@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信息安全/简单SSRF黑名单绕过.md",
+                "file": "信息安全/身份验证爆破.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "简单SSRF黑名单绕过"
-            }
-          },
-          {
-            "id": "49801f1d8bd972a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "信息安全/使用开放重定向绕过SSRF的限制.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "使用开放重定向绕过SSRF的限制"
-            }
-          },
-          {
-            "id": "ce50d020b6e2dbb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "信息安全/在 Referer 中的 SSRF.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "在 Referer 中的 SSRF"
+              "title": "身份验证爆破"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pwn",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信息安全/在 Referer 中的 SSRF.md",
+                "file": "信息安全/身份验证爆破.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "在 Referer 中的 SSRF 的大纲"
+              "title": "身份验证爆破 的大纲"
             }
           }
         ]
@@ -270,23 +221,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ce50d020b6e2dbb9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "assets/Pasted image 20260506180021.png",
     "信息安全/使用开放重定向绕过SSRF的限制.md",
+    "信息安全/JWT 伪造 — bd.gxmzu.edu.cn（广西民族大学办事大厅）.md",
+    "强化学习概念.md",
+    "极坐标代换求二元极限.md",
+    "信息安全/最基础的 CSRF.md",
+    "改id越权访问总是可行吗？.md",
+    "信息安全/NodeJS 原型链污染 RCE.md",
+    "信息安全/从SQLite的WAL工作模式中恢复数据.md",
+    "信息安全/简单SSRF黑名单绕过.md",
+    "人类的社会性行为/一个低质量关系的识别与止损的案例.md",
+    "人类的社会性行为/案例时间线与关键原话索引.md",
+    "人类的社会性行为/社交边界与分级处理指南.md",
+    "AGENTS.md",
+    "人类的社会性行为",
+    "assets/Pasted image 20260508111244.png",
+    "assets/Pasted image 20260508110233.png",
     "信息安全/在 Referer 中的 SSRF.md",
+    "assets/Pasted image 20260506180021.png",
     "assets/Pasted image 20260506165254.png",
     "assets/Pasted image 20260506164756.png",
-    "信息安全/简单SSRF黑名单绕过.md",
     "资产收集.md",
     "信息安全/身份验证爆破.md",
     "信息安全/PWN格式化字符串.md",
     "信息安全/nodejs绕过md5.md",
     "信息安全/原型链污染.md",
     "信息安全/nodejs常用.md",
-    "信息安全/NodeJS 原型链污染 RCE.md",
     "信息安全/SQL伪造查询记录的字段.md",
-    "信息安全/从SQLite的WAL工作模式中恢复数据.md",
     "信息安全/RCE 位点.md",
     "大学物理/一道反直觉的力学分析题目.md",
     "assets/Pasted image 20260504211847.png",
@@ -297,15 +260,7 @@
     "大学物理/对称情况简谐运动弹性力做的功.md",
     "通过 `include` 的文件上传漏洞.md",
     "通过上传 .user.ini 配置文件来执行上传的文件.md",
-    "绕过WAF.md",
     "repomix-output.txt",
-    "x64 有后门 栈溢出.md",
-    "x64栈溢出 无后门 ret2libc gadget.md",
-    "x64 函数调用约定.md",
-    "x64栈对齐.md",
-    "x64在栈对齐的情况下，程序如何执行？.md",
-    "canary 无PIE 有NX 格式化字符串.md",
-    "无后门 Ret2libc调用system 无PIE保护.md",
     "CANVAS/CTF流程.canvas",
     "数学",
     "大学物理",
@@ -313,9 +268,6 @@
     "CANVAS/渗透实用.canvas",
     "CANVAS/渗透概念理解.canvas",
     "assets/web342.zip",
-    "assets/Pasted image 20260430144233.png",
-    "assets/Pasted image 20260430143649.png",
-    "assets/Pasted image 20260430143523.png",
     "assets/web339 (1).zip",
     "CANVAS/大学物理.canvas",
     "CANVAS/高等数学实用.canvas",
@@ -326,7 +278,6 @@
     "广西民族大学教育SRC.canvas",
     "教育SRC",
     "New Text Document.txt",
-    "skills-lock.json",
     "Harness Engineering.canvas"
   ]
 }
