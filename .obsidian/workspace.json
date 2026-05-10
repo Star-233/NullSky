@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信息安全/身份验证爆破.md",
+                "file": "数学/包含边界本身的集合，一定不是开集.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "身份验证爆破"
+              "title": "包含边界本身的集合，一定不是开集"
             }
           }
         ]
@@ -193,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信息安全/身份验证爆破.md",
+                "file": "数学/包含边界本身的集合，一定不是开集.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "身份验证爆破 的大纲"
+              "title": "包含边界本身的集合，一定不是开集 的大纲"
             }
           }
         ]
@@ -223,6 +223,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "数学/直观理解组合数的公式.md",
+    "数学/包含边界本身的集合，一定不是开集.md",
+    "信息安全/身份验证爆破.md",
     "信息安全/使用开放重定向绕过SSRF的限制.md",
     "信息安全/JWT 伪造 — bd.gxmzu.edu.cn（广西民族大学办事大厅）.md",
     "强化学习概念.md",
@@ -244,7 +247,6 @@
     "assets/Pasted image 20260506165254.png",
     "assets/Pasted image 20260506164756.png",
     "资产收集.md",
-    "信息安全/身份验证爆破.md",
     "信息安全/PWN格式化字符串.md",
     "信息安全/nodejs绕过md5.md",
     "信息安全/原型链污染.md",
@@ -258,8 +260,6 @@
     "assets/Pasted image 20260504211125.png",
     "assets/Pasted image 20260504211120.png",
     "大学物理/对称情况简谐运动弹性力做的功.md",
-    "通过 `include` 的文件上传漏洞.md",
-    "通过上传 .user.ini 配置文件来执行上传的文件.md",
     "repomix-output.txt",
     "CANVAS/CTF流程.canvas",
     "数学",
