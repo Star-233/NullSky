@@ -1,0 +1,1025 @@
+{
+  "changelog": {
+    "enabled": true,
+    "lastVersion": "9.13.1"
+  },
+  "progressBarDisplayMode": "both",
+  "supportHoverToShowProgressInfo": false,
+  "addProgressBarToNonTaskBullet": false,
+  "addTaskProgressBarToHeading": false,
+  "addProgressBarToProjectsView": false,
+  "enableProgressbarInReadingMode": false,
+  "notifications": {
+    "enabled": false,
+    "dailySummary": {
+      "enabled": true,
+      "time": "09:00"
+    },
+    "perTask": {
+      "enabled": false,
+      "leadMinutes": 10
+    }
+  },
+  "desktopIntegration": {
+    "enableTray": false
+  },
+  "countSubLevel": false,
+  "displayMode": "bracketFraction",
+  "customFormat": "[{{COMPLETED}}/{{TOTAL}}]",
+  "showPercentage": false,
+  "customizeProgressRanges": false,
+  "progressRanges": [
+    {
+      "min": 0,
+      "max": 20,
+      "text": "刚刚开始 {{PROGRESS}}%"
+    },
+    {
+      "min": 20,
+      "max": 40,
+      "text": "正在进行中 {{PROGRESS}}% "
+    },
+    {
+      "min": 40,
+      "max": 60,
+      "text": "完成一半 {{PROGRESS}}% "
+    },
+    {
+      "min": 60,
+      "max": 80,
+      "text": "进展良好 {{PROGRESS}}% "
+    },
+    {
+      "min": 80,
+      "max": 100,
+      "text": "即将完成 {{PROGRESS}}% "
+    }
+  ],
+  "allowCustomProgressGoal": false,
+  "hideProgressBarBasedOnConditions": false,
+  "hideProgressBarTags": "no-progress,hide-progress",
+  "hideProgressBarFolders": "",
+  "hideProgressBarMetadata": "hide-progress-bar",
+  "showProgressBarBasedOnHeading": "",
+  "projectViewDefaultMode": "list",
+  "projectTreeAutoExpand": false,
+  "projectTreeShowEmptyFolders": false,
+  "projectPathSeparator": "/",
+  "autoCompleteParent": false,
+  "markParentInProgressWhenPartiallyComplete": false,
+  "taskStatuses": {
+    "completed": "x|X",
+    "inProgress": ">|/",
+    "abandoned": "-",
+    "planned": "?",
+    "notStarted": " "
+  },
+  "countOtherStatusesAs": "notStarted",
+  "excludeTaskMarks": "",
+  "useOnlyCountMarks": false,
+  "onlyCountTaskMarks": "x|X|>|/",
+  "enableTaskStatusSwitcher": false,
+  "enableIndicatorWithCheckbox": false,
+  "enableCustomTaskMarks": false,
+  "enableTextMarkInSourceMode": false,
+  "enableCycleCompleteStatus": false,
+  "taskStatusCycle": [
+    "Not Started",
+    "In Progress",
+    "Completed",
+    "Abandoned",
+    "Planned"
+  ],
+  "taskStatusMarks": {
+    "Not Started": " ",
+    "In Progress": "/",
+    "Completed": "x",
+    "Abandoned": "-",
+    "Planned": "?"
+  },
+  "excludeMarksFromCycle": [],
+  "statusCycles": [
+    {
+      "id": "default-cycle",
+      "name": "Default Cycle",
+      "description": "Standard task lifecycle with all states",
+      "priority": 0,
+      "cycle": [
+        "Not Started",
+        "In Progress",
+        "Completed",
+        "Abandoned",
+        "Planned"
+      ],
+      "marks": {
+        "Not Started": " ",
+        "In Progress": "/",
+        "Completed": "x",
+        "Abandoned": "-",
+        "Planned": "?"
+      },
+      "enabled": true
+    }
+  ],
+  "enableTaskGeniusIcons": false,
+  "enablePriorityPicker": false,
+  "enablePriorityKeyboardShortcuts": false,
+  "enableDatePicker": false,
+  "recurrenceDateBase": "due",
+  "taskFilter": {
+    "enableTaskFilter": false,
+    "presetTaskFilters": []
+  },
+  "taskGutter": {
+    "enableTaskGutter": false
+  },
+  "completedTaskMover": {
+    "enableCompletedTaskMover": false,
+    "taskMarkerType": "date",
+    "versionMarker": "version 1.0",
+    "dateMarker": "归档于 {{date}}",
+    "customMarker": "已移动 {{DATE:YYYY-MM-DD HH:mm}}",
+    "treatAbandonedAsCompleted": false,
+    "completeAllMovedTasks": true,
+    "withCurrentFileLink": true,
+    "enableAutoMove": false,
+    "defaultTargetFile": "Archive.md",
+    "defaultInsertionMode": "end",
+    "defaultHeadingName": "Completed Tasks",
+    "enableIncompletedTaskMover": true,
+    "incompletedTaskMarkerType": "date",
+    "incompletedVersionMarker": "version 1.0",
+    "incompletedDateMarker": "移动于 {{date}}",
+    "incompletedCustomMarker": "已移动 {{DATE:YYYY-MM-DD HH:mm}}",
+    "withCurrentFileLinkForIncompleted": true,
+    "enableIncompletedAutoMove": false,
+    "incompletedDefaultTargetFile": "Backlog.md",
+    "incompletedDefaultInsertionMode": "end",
+    "incompletedDefaultHeadingName": "Incomplete Tasks"
+  },
+  "quickCapture": {
+    "enableQuickCapture": false,
+    "targetFile": "QuickCapture.md",
+    "placeholder": "记录你的想法...",
+    "appendToFile": "append",
+    "targetType": "fixed",
+    "targetHeading": "",
+    "dailyNoteSettings": {
+      "format": "YYYY-MM-DD",
+      "folder": "",
+      "template": ""
+    },
+    "enableMinimalMode": false,
+    "minimalModeSettings": {
+      "suggestTrigger": "/"
+    },
+    "keepOpenAfterCapture": false,
+    "rememberLastMode": true,
+    "lastUsedMode": "checkbox",
+    "defaultFileNameTemplate": "{{DATE:YYYY-MM-DD}} - Task",
+    "defaultFileLocation": "",
+    "fileNameTemplates": [
+      {
+        "name": "{{DATE:YYYY-MM-DD}}",
+        "template": "{{DATE:YYYY-MM-DD}}"
+      },
+      {
+        "name": "{{DATE:YYYY-MM-DD}} - Meeting",
+        "template": "{{DATE:YYYY-MM-DD}} - Meeting"
+      },
+      {
+        "name": "{{DATE:YYYY-MM-DD}} - Task",
+        "template": "{{DATE:YYYY-MM-DD}} - Task"
+      },
+      {
+        "name": "Project - {{DATE:YYYY-MM}}",
+        "template": "Project - {{DATE:YYYY-MM}}"
+      },
+      {
+        "name": "Notes - {{DATE:YYYY-MM-DD-HHmm}}",
+        "template": "Notes - {{DATE:YYYY-MM-DD-HHmm}}"
+      }
+    ],
+    "createFileMode": {
+      "defaultFolder": "",
+      "useTemplate": false,
+      "templateFolder": "",
+      "templateFile": "",
+      "writeContentTagsToFrontmatter": false
+    },
+    "autoStartTimer": false
+  },
+  "workflow": {
+    "enableWorkflow": false,
+    "autoAddTimestamp": false,
+    "timestampFormat": "YYYY-MM-DD HH:mm:ss",
+    "removeTimestampOnTransition": false,
+    "calculateSpentTime": false,
+    "spentTimeFormat": "HH:mm:ss",
+    "calculateFullSpentTime": false,
+    "autoRemoveLastStageMarker": false,
+    "autoAddNextTask": false,
+    "definitions": [
+      {
+        "id": "project_workflow",
+        "name": "项目工作流",
+        "description": "标准项目管理工作流",
+        "stages": [
+          {
+            "id": "planning",
+            "name": "规划中",
+            "type": "linear",
+            "next": "in_progress"
+          },
+          {
+            "id": "in_progress",
+            "name": "进行中",
+            "type": "cycle",
+            "subStages": [
+              {
+                "id": "development",
+                "name": "开发中",
+                "next": "testing"
+              },
+              {
+                "id": "testing",
+                "name": "测试中",
+                "next": "development"
+              }
+            ],
+            "canProceedTo": [
+              "review",
+              "cancelled"
+            ]
+          },
+          {
+            "id": "review",
+            "name": "回顾",
+            "type": "cycle",
+            "canProceedTo": [
+              "in_progress",
+              "completed"
+            ]
+          },
+          {
+            "id": "completed",
+            "name": "已完成",
+            "type": "terminal"
+          },
+          {
+            "id": "cancelled",
+            "name": "已取消",
+            "type": "terminal"
+          }
+        ],
+        "metadata": {
+          "version": "1.0",
+          "created": "2024-03-20",
+          "lastModified": "2024-03-20"
+        }
+      }
+    ]
+  },
+  "useDailyNotePathAsDate": false,
+  "dailyNoteFormat": "yyyy-MM-dd",
+  "useAsDateType": "due",
+  "dailyNotePath": "",
+  "preferMetadataFormat": "tasks",
+  "projectTagPrefix": {
+    "tasks": "project",
+    "dataview": "project"
+  },
+  "contextTagPrefix": {
+    "tasks": "@",
+    "dataview": "context"
+  },
+  "areaTagPrefix": {
+    "tasks": "area",
+    "dataview": "area"
+  },
+  "fileMetadataInheritance": {
+    "enabled": true,
+    "inheritFromFrontmatter": true,
+    "inheritFromFrontmatterForSubtasks": false
+  },
+  "projectConfig": {
+    "enableEnhancedProject": false,
+    "pathMappings": [],
+    "metadataConfig": {
+      "metadataKey": "project",
+      "enabled": false,
+      "detectionMethods": [
+        {
+          "type": "metadata",
+          "propertyKey": "project",
+          "enabled": false
+        },
+        {
+          "type": "tag",
+          "propertyKey": "project",
+          "enabled": false
+        },
+        {
+          "type": "link",
+          "propertyKey": "category",
+          "linkFilter": "",
+          "enabled": false
+        }
+      ]
+    },
+    "configFile": {
+      "fileName": "project.md",
+      "searchRecursively": false,
+      "enabled": false
+    },
+    "metadataMappings": [],
+    "defaultProjectNaming": {
+      "strategy": "filename",
+      "stripExtension": false,
+      "enabled": false
+    }
+  },
+  "fileParsingConfig": {
+    "enableFileMetadataParsing": false,
+    "metadataFieldsToParseAsTasks": [
+      "dueDate",
+      "todo",
+      "complete",
+      "task"
+    ],
+    "enableTagBasedTaskParsing": false,
+    "tagsToParseAsTasks": [
+      "#todo",
+      "#task",
+      "#action",
+      "#due"
+    ],
+    "taskContentFromMetadata": "title",
+    "defaultTaskStatus": " ",
+    "enableWorkerProcessing": true,
+    "enableMtimeOptimization": true,
+    "mtimeCacheSize": 10000
+  },
+  "useRelativeTimeForDate": false,
+  "ignoreHeading": "",
+  "focusHeading": "",
+  "enableIndexer": true,
+  "enableView": true,
+  "enableInlineEditor": true,
+  "enableDynamicMetadataPositioning": false,
+  "defaultViewMode": "list",
+  "globalFilterRules": {},
+  "viewConfiguration": [
+    {
+      "id": "today",
+      "name": "今天",
+      "icon": "calendar-days",
+      "type": "default",
+      "visible": true,
+      "region": "top",
+      "hideCompletedAndAbandonedTasks": true,
+      "filterBlanks": false,
+      "filterRules": {}
+    },
+    {
+      "id": "upcoming",
+      "name": "Upcoming",
+      "icon": "calendar",
+      "type": "default",
+      "visible": true,
+      "region": "top",
+      "hideCompletedAndAbandonedTasks": true,
+      "filterBlanks": false,
+      "filterRules": {}
+    },
+    {
+      "id": "inbox",
+      "name": "收件箱",
+      "icon": "inbox",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false,
+      "region": "top"
+    },
+    {
+      "id": "working-on",
+      "name": "进行中",
+      "icon": "timer",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "forecast",
+      "name": "预测",
+      "icon": "calendar-days",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "forecast",
+        "hideWeekends": false
+      }
+    },
+    {
+      "id": "projects",
+      "name": "项目",
+      "icon": "folders",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "tags",
+      "name": "标签",
+      "icon": "tag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "flagged",
+      "name": "已标记",
+      "icon": "flag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false,
+      "region": "top"
+    },
+    {
+      "id": "review",
+      "name": "回顾",
+      "icon": "eye",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "calendar",
+      "name": "事件",
+      "icon": "calendar",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "region": "bottom",
+      "specificConfig": {
+        "viewType": "calendar",
+        "hideWeekends": false,
+        "showWorkingHoursOnly": false,
+        "workingHoursStart": 9,
+        "workingHoursEnd": 18
+      }
+    },
+    {
+      "id": "kanban",
+      "name": "状态",
+      "icon": "kanban",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "region": "bottom",
+      "specificConfig": {
+        "viewType": "kanban",
+        "showCheckbox": true,
+        "hideEmptyColumns": false,
+        "defaultSortField": "priority",
+        "defaultSortOrder": "desc",
+        "groupBy": "status"
+      }
+    },
+    {
+      "id": "gantt",
+      "name": "计划",
+      "icon": "chart-gantt",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "region": "bottom",
+      "specificConfig": {
+        "viewType": "gantt",
+        "showTaskLabels": true,
+        "useMarkdownRenderer": true
+      }
+    },
+    {
+      "id": "habit",
+      "name": "习惯",
+      "icon": "calendar-clock",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "region": "bottom"
+    },
+    {
+      "id": "table",
+      "name": "表格",
+      "icon": "table",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "table",
+        "enableTreeView": true,
+        "enableLazyLoading": true,
+        "pageSize": 50,
+        "enableInlineEditing": true,
+        "visibleColumns": [
+          "status",
+          "content",
+          "priority",
+          "dueDate",
+          "startDate",
+          "scheduledDate",
+          "tags",
+          "project",
+          "context",
+          "filePath"
+        ],
+        "columnWidths": {
+          "status": 80,
+          "content": 300,
+          "priority": 100,
+          "dueDate": 120,
+          "startDate": 120,
+          "scheduledDate": 120,
+          "createdDate": 120,
+          "completedDate": 120,
+          "tags": 150,
+          "project": 150,
+          "context": 120,
+          "recurrence": 120,
+          "estimatedTime": 120,
+          "actualTime": 120,
+          "filePath": 200
+        },
+        "sortableColumns": true,
+        "resizableColumns": true,
+        "showRowNumbers": true,
+        "enableRowSelection": true,
+        "enableMultiSelect": true,
+        "defaultSortField": "",
+        "defaultSortOrder": "asc"
+      }
+    },
+    {
+      "id": "quadrant",
+      "name": "矩阵",
+      "icon": "layout-grid",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "quadrant",
+        "hideEmptyQuadrants": false,
+        "autoUpdatePriority": true,
+        "autoUpdateTags": true,
+        "showTaskCount": true,
+        "defaultSortField": "priority",
+        "defaultSortOrder": "desc",
+        "urgentTag": "#urgent",
+        "importantTag": "#important",
+        "urgentThresholdDays": 3,
+        "usePriorityForClassification": false,
+        "urgentPriorityThreshold": 4,
+        "importantPriorityThreshold": 3,
+        "customQuadrantColors": false,
+        "quadrantColors": {
+          "urgentImportant": "#dc3545",
+          "notUrgentImportant": "#28a745",
+          "urgentNotImportant": "#ffc107",
+          "notUrgentNotImportant": "#6c757d"
+        }
+      }
+    }
+  ],
+  "reviewSettings": {},
+  "rewards": {
+    "enableRewards": false,
+    "rewardItems": [
+      {
+        "id": "reward-tea",
+        "name": "喝一杯好茶",
+        "occurrence": "common",
+        "inventory": -1
+      },
+      {
+        "id": "reward-series-episode",
+        "name": "观看一集喜欢的剧集",
+        "occurrence": "rare",
+        "inventory": 20
+      },
+      {
+        "id": "reward-champagne-project",
+        "name": "玩一局游戏",
+        "occurrence": "legendary",
+        "inventory": 1,
+        "condition": "#project AND #milestone"
+      },
+      {
+        "id": "reward-chocolate-quick",
+        "name": "吃一块巧克力",
+        "occurrence": "common",
+        "inventory": 10,
+        "condition": "#quickwin",
+        "imageUrl": ""
+      }
+    ],
+    "occurrenceLevels": [
+      {
+        "name": "普通",
+        "chance": 70
+      },
+      {
+        "name": "稀有",
+        "chance": 25
+      },
+      {
+        "name": "传奇",
+        "chance": 5
+      }
+    ],
+    "showRewardType": "modal"
+  },
+  "habit": {
+    "enableHabits": false,
+    "habits": []
+  },
+  "filterConfig": {
+    "enableSavedFilters": true,
+    "savedConfigs": []
+  },
+  "sortTasks": true,
+  "sortCriteria": [
+    {
+      "field": "completed",
+      "order": "asc"
+    },
+    {
+      "field": "status",
+      "order": "asc"
+    },
+    {
+      "field": "priority",
+      "order": "asc"
+    },
+    {
+      "field": "dueDate",
+      "order": "asc"
+    }
+  ],
+  "autoDateManager": {
+    "enabled": false,
+    "manageCompletedDate": true,
+    "manageStartDate": true,
+    "manageCancelledDate": true,
+    "completedDateFormat": "YYYY-MM-DD",
+    "startDateFormat": "YYYY-MM-DD",
+    "cancelledDateFormat": "YYYY-MM-DD",
+    "completedDateMarker": "✅",
+    "startDateMarker": "🚀",
+    "cancelledDateMarker": "❌"
+  },
+  "betaTest": {
+    "enableBaseView": false
+  },
+  "icsIntegration": {
+    "sources": [],
+    "globalRefreshInterval": 60,
+    "maxCacheAge": 24,
+    "enableBackgroundRefresh": false,
+    "networkTimeout": 30,
+    "maxEventsPerSource": 1000,
+    "showInCalendar": false,
+    "showInTaskLists": false,
+    "defaultEventColor": "#3b82f6"
+  },
+  "timelineSidebar": {
+    "enableTimelineSidebar": false,
+    "autoOpenOnStartup": false,
+    "showCompletedTasks": true,
+    "focusModeByDefault": false,
+    "maxEventsToShow": 100,
+    "quickInputCollapsed": false,
+    "quickInputDefaultHeight": 150,
+    "quickInputAnimationDuration": 300,
+    "quickInputCollapseOnCapture": false,
+    "quickInputShowQuickActions": true
+  },
+  "fileFilter": {
+    "enabled": false,
+    "mode": "blacklist",
+    "rules": [],
+    "scopeControls": {
+      "inlineTasksEnabled": true,
+      "fileTasksEnabled": true
+    }
+  },
+  "onCompletion": {
+    "enableOnCompletion": true,
+    "defaultArchiveFile": "Archive/Completed Tasks.md",
+    "defaultArchiveSection": "Completed Tasks",
+    "showAdvancedOptions": false
+  },
+  "timeParsing": {
+    "enabled": true,
+    "supportedLanguages": [
+      "en",
+      "zh"
+    ],
+    "dateKeywords": {
+      "start": [
+        "start",
+        "begin",
+        "from",
+        "starting",
+        "begins",
+        "开始",
+        "从",
+        "起始",
+        "起",
+        "始于",
+        "自"
+      ],
+      "due": [
+        "due",
+        "deadline",
+        "by",
+        "until",
+        "before",
+        "expires",
+        "ends",
+        "截止",
+        "到期",
+        "之前",
+        "期限",
+        "最晚",
+        "结束",
+        "终止",
+        "完成于"
+      ],
+      "scheduled": [
+        "scheduled",
+        "on",
+        "at",
+        "planned",
+        "set for",
+        "arranged",
+        "安排",
+        "计划",
+        "在",
+        "定于",
+        "预定",
+        "约定",
+        "设定"
+      ]
+    },
+    "removeOriginalText": true,
+    "perLineProcessing": true,
+    "realTimeReplacement": true,
+    "timePatterns": {
+      "singleTime": [
+        {},
+        {}
+      ],
+      "timeRange": [
+        {},
+        {}
+      ],
+      "rangeSeparators": [
+        "-",
+        "~",
+        "～",
+        " - ",
+        " ~ ",
+        " ～ "
+      ]
+    },
+    "timeDefaults": {
+      "preferredFormat": "24h",
+      "defaultPeriod": "AM",
+      "midnightCrossing": "next-day"
+    }
+  },
+  "taskTimer": {
+    "enabled": false,
+    "metadataDetection": {
+      "frontmatter": "task-timer",
+      "folders": [],
+      "tags": [
+        "timer",
+        "tracked"
+      ]
+    },
+    "timeFormat": "{h}hrs {m}mins",
+    "blockRefPrefix": "timer"
+  },
+  "enableCustomDateFormats": false,
+  "customDateFormats": [],
+  "onboarding": {
+    "completed": false,
+    "version": "",
+    "configMode": "beginner",
+    "skipOnboarding": false,
+    "completedAt": ""
+  },
+  "fileSource": {
+    "enabled": false,
+    "recognitionStrategies": {
+      "metadata": {
+        "enabled": true,
+        "taskFields": [
+          "dueDate",
+          "status",
+          "priority",
+          "assigned"
+        ],
+        "requireAllFields": false
+      },
+      "tags": {
+        "enabled": true,
+        "taskTags": [
+          "#task",
+          "#actionable",
+          "#todo"
+        ],
+        "matchMode": "exact"
+      },
+      "templates": {
+        "enabled": false,
+        "templatePaths": [
+          "Templates/Task Template.md"
+        ],
+        "checkTemplateMetadata": true
+      },
+      "paths": {
+        "enabled": false,
+        "taskPaths": [
+          "Projects/",
+          "Tasks/"
+        ],
+        "matchMode": "prefix"
+      }
+    },
+    "metadataMappings": [],
+    "fileTaskProperties": {
+      "contentSource": "filename",
+      "stripExtension": true,
+      "defaultStatus": " ",
+      "preferFrontmatterTitle": true
+    },
+    "relationships": {
+      "enableChildRelationships": true,
+      "enableMetadataInheritance": true,
+      "inheritanceFields": [
+        "project",
+        "priority",
+        "context"
+      ]
+    },
+    "performance": {
+      "enableWorkerProcessing": true,
+      "enableCaching": true,
+      "cacheTTL": 300000
+    },
+    "statusMapping": {
+      "enabled": true,
+      "metadataToSymbol": {
+        "completed": "x",
+        "done": "x",
+        "finished": "x",
+        "in-progress": "/",
+        "in progress": "/",
+        "doing": "/",
+        "planned": "?",
+        "todo": "?",
+        "cancelled": "-",
+        "not-started": " ",
+        "not started": " "
+      },
+      "symbolToMetadata": {
+        "x": "completed",
+        "X": "completed",
+        "/": "in-progress",
+        ">": "in-progress",
+        "?": "planned",
+        "-": "cancelled",
+        " ": "not-started"
+      },
+      "autoDetect": true,
+      "caseSensitive": false
+    }
+  },
+  "fluentView": {
+    "enableFluent": true,
+    "workspaces": [
+      {
+        "id": "default",
+        "name": "Default",
+        "color": "#3498db"
+      }
+    ],
+    "fluentConfig": {
+      "enableWorkspaces": true,
+      "defaultWorkspace": "default",
+      "maxOtherViewsBeforeOverflow": 5
+    },
+    "useWorkspaceSideLeaves": false
+  },
+  "customCalendarViews": [],
+  "workspaces": {
+    "version": 2,
+    "defaultWorkspaceId": "ws_1778575998418_3awh3jzrb",
+    "activeWorkspaceId": "ws_1778575998418_3awh3jzrb",
+    "order": [
+      "ws_1778575998418_3awh3jzrb"
+    ],
+    "byId": {
+      "ws_1778575998418_3awh3jzrb": {
+        "id": "ws_1778575998418_3awh3jzrb",
+        "name": "Default",
+        "updatedAt": 1778577622093,
+        "settings": {
+          "fluentFilterState": {
+            "kanban": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "gantt": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "habit": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "working-on": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "inbox": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "calendar"
+            },
+            "forecast": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "upcoming": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "calendar": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "review": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            },
+            "today": {
+              "filters": {},
+              "advancedFilter": null,
+              "viewMode": "list"
+            }
+          },
+          "fluentActiveViewId": "inbox"
+        }
+      }
+    }
+  }
+}

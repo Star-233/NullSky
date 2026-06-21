@@ -3,5 +3,8 @@
   "obsidian-git",
   "homepage",
   "advanced-canvas",
-  "pixel-perfect-image"
+  "pixel-perfect-image",
+  "obsidian-tasks-plugin",
+  "obsidian-task-progress-bar",
+  "better-export-pdf"
 ]

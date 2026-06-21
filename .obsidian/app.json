@@ -23,5 +23,12 @@
     "editor:indent-list",
     "editor:unindent-list",
     "editor:configure-toolbar"
-  ]
+  ],
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 81
+  }
 }

