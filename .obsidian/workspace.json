@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信息安全/PHP 反序列化常用.md",
+                "file": "草稿/题目.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,37 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PHP 反序列化常用"
+              "title": "题目"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f245717be11068c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c88f6e61233f230",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "草稿/答案.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "答案"
             }
           }
         ]
@@ -63,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"<?=\"",
+                "query": "伪协议",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信息安全/PHP 反序列化常用.md",
+                "file": "草稿/题目.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PHP 反序列化常用 的大纲"
+              "title": "题目 的大纲"
             }
           }
         ]
@@ -224,6 +254,29 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "草稿/答案.md",
+    "草稿/题目.md",
+    "Home.md",
+    "数学/幂级数.md",
+    "数学/交错级数.md",
+    "大学物理/气体动理论.md",
+    "大学物理/对称情况简谐运动弹性力做的功.md",
+    "大学物理/一道反直觉的力学分析题目.md",
+    "大学物理/机械振动.md",
+    "大学物理/机械波.md",
+    "feroxbuster 常用.md",
+    "constantinople 沙箱绕过漏洞深度分析 GHSA-4vmm-mhcq-4x9j.md",
+    "AGENTS.md",
+    "草稿/Anti-Anti-Cheat.md",
+    "信息安全/PHP 反序列化常用.md",
+    "信息安全/PHP 反序列化常用.md.tmp.47045.1b8466960e6e",
+    "信息安全/PHP特性常用.md",
+    "CANVAS/CTF流程.canvas",
+    "信息安全/文件上传常用.md",
+    "信息安全/CTFshow-Web入门-PNG图片马文件包含-WEB164.md",
+    "php字母和数字 md5弱判断绕过.md",
+    "include 日志注入.md",
+    "草稿/使用ROS2的Nav2通过障碍区域.md",
     "信息安全/PHP 反序列化常用.md.tmp.47045.dcd7f3a2d510",
     "信息安全/PHP 反序列化常用.md.tmp.47045.24c070fd6162",
     "信息安全/PHP 反序列化常用.md.tmp.47045.bebce9a23279",
@@ -233,46 +286,23 @@
     "信息安全/PHP 反序列化常用.md.tmp.47045.2447cffd0e30",
     "信息安全/PHP 反序列化常用.md.tmp.47045.62eb08b37e36",
     "信息安全/PHP 反序列化常用.md.tmp.47045.686f2fea559c",
-    "信息安全/PHP 反序列化常用.md.tmp.47045.67cddb7a621e",
-    "信息安全/PHP 反序列化常用.md.tmp.44219.52e18cf5d29e",
-    "信息安全/文件上传常用.md",
-    "信息安全/PHP 反序列化常用.md",
-    "大学物理/气体动理论.md",
     "assets/Pasted image 20260621170117.png",
     "assets/Pasted image 20260620172042.png",
-    "Home.md",
-    "大学物理/机械波.md",
     "assets/Pasted image 20260620005035.png",
     "assets/Pasted image 20260619205619.png",
     "assets/Pasted image 20260619205347.png",
-    "大学物理/机械振动.md",
-    "大学物理/对称情况简谐运动弹性力做的功.md",
-    "大学物理/一道反直觉的力学分析题目.md",
     "人类的社会性行为/在公共场景下保证自己的利益.md",
     "CANVAS/PE格式概念理解.canvas",
     "CANVAS/渗透概念理解.canvas",
-    "CANVAS/CTF流程.canvas",
     "SQL注入空格绕过.md",
     "assets/Pasted image 20260618001257.png",
     "assets/Pasted image 20260618000439.png",
-    "信息安全/PHP常用.md",
     "信息安全/NodeJS 原型链污染 RCE.md",
     "assets/Pasted image 20260617213026.png",
     "assets/Pasted image 20260617211609.png",
     "assets/Pasted image 20260617183950.png",
     "信息安全/nodejs常用.md",
-    "信息安全/CTFshow-Web入门-PNG图片马文件包含-WEB164.md",
     "信息安全/图片马例子 —— PNG 二次渲染绕过.md",
-    "信息安全/PNG 二次渲染绕过.md",
-    "信息安全/PNG-IDAT-Payload-Generator 原理拆解.md",
-    "ASLR（地址空间布局随机化）.md",
-    "python 模拟c类型.md",
-    "向下取整的范围推导.md",
-    "LCM  公式化简.md",
-    "绕过WAF.md",
-    "《动手学强化学习》多臂老虎机代码实现.md",
-    "x64 函数调用约定.md",
-    "信息安全/身份验证爆破.md",
     "CANVAS/渗透实用.canvas",
     "CANVAS/大学物理.canvas",
     "CANVAS/高等数学实用.canvas",
